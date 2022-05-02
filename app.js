@@ -30,7 +30,7 @@ mongoose.connect(url,connectionParams)
 
 const blog = new Blog({
     name : 'naveen',
-    age : 22
+    age : 23
 });
 
 blog.save()
