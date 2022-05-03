@@ -30,11 +30,9 @@ mongoose.connect(url,connectionParams)
 
 const blog = new Blog({
     name : 'naveen',
-    age : 23
+    age : 20
 });
 
 blog.save()
-.then((saved) => {
-    console.log(saved);
-})
+.then((saved))
 
