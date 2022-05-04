@@ -35,4 +35,3 @@ const blog = new Blog({
 
 blog.save()
 .then((saved))
-
